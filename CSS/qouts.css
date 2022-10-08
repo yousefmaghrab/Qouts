@@ -1,0 +1,52 @@
+.layer {
+    background-image: url(../images/computer-with-circuit-board-and-internal-led-rgb-lights-hardware-inside-open-high-performance-desktop-pc-the-open-gaming-computer-for-wallpaper-con-2CP2G2R.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+
+.item {
+    font-size: 30px;
+}
+
+#qout,
+#name {
+    font-weight: 500;
+    color: antiquewhite;
+    font-size: 25px;
+}
+
+p i {
+    animation: happy infinite 2s;
+    font-size: 50px;
+    color: #ccc;
+}
+
+@keyframes happy {
+
+    0%,
+    10%,
+    20%,
+    50%,
+    80%,
+    10% {
+        transform: translateY(0);
+    }
+
+    40%,
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+button {
+    background-color: black;
+    color: beige;
+}
+
+button:hover {
+    color: black;
+    transition: 1s;
+    background-color: white;
+}
